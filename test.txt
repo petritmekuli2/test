@@ -1,2 +1,2 @@
-dummy text.
-some more dummy text.
+Dummy text.
+Some more dummy text.
