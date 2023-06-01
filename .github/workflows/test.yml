@@ -5,8 +5,8 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
+#  push:
+#    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -30,7 +30,10 @@ jobs:
         run: vim --version 
         
       - name: install vim
-        run: apt-get vim
-      
+        run: |
+          apt-get update,
+          apt-get upgrade,
+	  apt-get install vim
+	        
       - name: check again if vim is installed 
-        run: apt-get vim
+        run: vim --version
