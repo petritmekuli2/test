@@ -2,3 +2,4 @@ Dummy text.
 Some more dummy text.
 
 This is form the third branch-first commit
+This is from the third branch-second commit
